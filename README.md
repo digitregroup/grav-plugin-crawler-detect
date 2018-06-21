@@ -1,12 +1,10 @@
 # Crawler Detect Plugin
 
-Detect bots/crawlers/spiders using the [Crawler-Detect](https://github.com/JayBizzle/Crawler-Detect) library.
-
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
 The **Crawler Detect** Plugin is for [Grav CMS](http://github.com/getgrav/grav).
 
-CrawlerDetect detects bots/crawlers/spiders via the user agent and http_from header.
+This plugin add a twig function to detect bots/crawlers/spiders using the [Crawler-Detect](https://github.com/JayBizzle/Crawler-Detect) library.
+
+Crawler-Detect detects bots/crawlers/spiders via the user agent and http_from header.
 
 ## Installation
 
@@ -69,5 +67,6 @@ This plugin provide a twig function to know if the current visitor is a bot or n
 ## To Do
 
 - [ ] Add an abstaction over Crawler-Detect to potentially include other libs and/or functionnalities.
+- [ ] Add a PHP higth level objet to call the crawler detector.
 
 
