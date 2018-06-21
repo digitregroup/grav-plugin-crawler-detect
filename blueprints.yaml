@@ -1,0 +1,26 @@
+name: Crawler Detect
+version: 0.1.0
+description: CrawlerDetect detects bots/crawlers/spiders via the user agent and http_from header.
+icon: plug
+author:
+  name: Basile Trujillo
+  email: basile.trujillo@digitregroup.com
+homepage: https://github.com/digitregroup/grav-plugin-crawler-detect
+keywords: grav, plugin, bot, crawler, detector
+bugs: https://github.com/digitregroup/grav-plugin-crawler-detect/issues
+docs: https://github.com/digitregroup/grav-plugin-crawler-detect/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

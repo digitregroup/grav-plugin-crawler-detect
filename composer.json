@@ -1,0 +1,12 @@
+{
+    "name": "digitregroup/grav-plugin-crawler-detect",
+    "description": "CrawlerDetect detects bots/crawlers/spiders via the user agent and http_from header.",
+    "require": {
+        "jaybizzle/crawler-detect": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grav\\Plugin\\CrawlerDetect\\": "classes/"
+        }
+    }
+}
